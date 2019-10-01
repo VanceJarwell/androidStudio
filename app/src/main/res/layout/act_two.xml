@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="please enter a message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUM" />
+
+    <Button
+        android:id="@+id/diff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIFFERENCE" />
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT" />
+
+    <Button
+        android:id="@+id/quotient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUOTIENT" />
+
+    <Button
+        android:id="@+id/remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMAINDER" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERT" />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
